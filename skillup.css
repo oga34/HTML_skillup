@@ -9,3 +9,18 @@ header {
     height: 70px;
     background-color: #EC715F
 }
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-title{
+    font-size: 16px;
+    color: #FAFAFA;
+    margin: 0 auto;
+    margin: 0 30px;
+}
