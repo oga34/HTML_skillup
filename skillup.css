@@ -47,6 +47,7 @@ a,a:hover,a:visited{
     width: 100%;
     background-image: url("img/mv.png");
     background-size: cover;
+    background-position: center;
 }
 
 .main-container {
@@ -69,6 +70,8 @@ a,a:hover,a:visited{
 .portfolio {
     width: 100%;
     background-color: #ECEFF1;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-container {
@@ -77,18 +80,39 @@ a,a:hover,a:visited{
 
 .potfolio-title {
     font-size: 32px;
+    font-weight: bolder;
     color: #000000;
     padding-top: 90px;
     padding-bottom: 8px;
     border-bottom: 3px solid #EC715F;
+    text-align: center;
+    padding: 90px 0 8px 0;
 }
 
 .portfolio-text {
-    
+    text-align:center;
+    padding: 30px 0;
 }
 
 .portfolio-image {
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.image-box1,.image-box2,.image-box3,.image-box4,.image-box5,.image-box6 {
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-box1,.image-box2,.image-box4,.image-box5 {
+    margin-right: 10px;
+}
+
+.image-box1,.image-box2,.image-box3{
+    margin-bottom: 10px;
 }
 
 .image-box1 {
