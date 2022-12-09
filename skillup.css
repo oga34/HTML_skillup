@@ -90,13 +90,14 @@ a,a:hover,a:visited{
 }
 
 .portfolio-text {
-    text-align:center;
+    text-align: center;
     padding: 30px 0;
 }
 
 .portfolio-image {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 90px;
 }
 
@@ -137,4 +138,57 @@ a,a:hover,a:visited{
 
 .image-box6 {
     background-image: url("img/webcamp-mother.png");
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-container {
+    width: 980px;
+}
+
+.feature-title {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #EC715F;
+    text-align: center;
+    padding: 90px 0 8px 0;
+}
+
+.feature-text {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.strength-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.strength1,.strength2,.strength3 {
+    width: 320px;
+}
+
+.strength1 {
+    margin-right: 10px;
+}
+
+.strength2 {
+    margin-right: 10px;
+}
+
+.strength1-top,.strength2-top,.strength3-top {
+    text-align: center;
+}
+
+.strength1-title,.strength2-title,.strength3-title {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+    font-weight: bolder;
 }
