@@ -75,6 +75,10 @@ a,a:hover,a:visited{
 }
 
 .portfolio-container {
+    width: 980px;
+}
+
+.portfolio-container {
     width: 920px;
 }
 
@@ -144,9 +148,6 @@ a,a:hover,a:visited{
     display: flex;
     justify-content: center;
 }
-.portfolio-container {
-    width: 980px;
-}
 
 .feature-title {
     font-size: 32px;
@@ -195,4 +196,63 @@ a,a:hover,a:visited{
 
 .strength1-icon,.strength2-icon,.strength3-icon {
     font-size: 60px;
+}
+
+.profile {
+    width: 100%;
+    background-color: #ECEFF1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container {
+    width: 1024px;
+}
+
+.profile-title {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #EC715F;
+    text-align: center;
+    padding: 90px 0 8px 0;
+}
+
+.profile-text {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.profile-content {
+    display: flex;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.profile-image {
+    width: 512px;
+}
+
+.image {
+    background-image: url("img/my-icon.jpg");
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-content-text {
+    width: 512px;
+}
+
+.myname,.myskills {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;  
+}
+
+.profile-myname {
+    margin-bottom: 20px;   
 }
