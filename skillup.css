@@ -192,3 +192,7 @@ a,a:hover,a:visited{
     margin: 10px 0;
     font-weight: bolder;
 }
+
+.strength1-icon,.strength2-icon,.strength3-icon {
+    font-size: 60px;
+}
