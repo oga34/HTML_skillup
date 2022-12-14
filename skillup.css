@@ -221,6 +221,8 @@ a,a:hover,a:visited{
 }
 
 .profile-text {
+    font-size: 16px;
+    color: #000000;
     text-align: center;
     padding: 30px 0;
 }
@@ -255,4 +257,71 @@ a,a:hover,a:visited{
 
 .profile-myname {
     margin-bottom: 20px;   
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 800px;
+    margin-bottom: 90px;
+}
+
+.contact-title {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #EC715F;
+    text-align: center;
+    padding: 90px 0 8px 0;
+}
+
+.contact-text {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.contact-content {
+    display: flex;
+    width: 800px;
+}
+
+.mail-tel {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.mail,.tel,.sns {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.mail-address {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.tel-number {
+    text-decoration: underline;
+}
+
+.sns-icon {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.fab {
+    font-size: 50px;
+}
+
+.fa-facebook-f,.fa-twitter {
+    margin-right: 20px;
 }
