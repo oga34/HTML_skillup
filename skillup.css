@@ -327,7 +327,7 @@ a,a:hover,a:visited{
 }
 
 footer {
-    background-color: #EC715F;
+    background-color: red;
     height: 60px;
     display: flex;
     justify-content: center;
